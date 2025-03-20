@@ -1,8 +1,8 @@
-palavra_secreta = 'Carro'
+palavra_secreta = 'carro'
 letras_acertadas = ''
 num_tentativas = 0
 while True:
-    letra_digitada = input('Digite uma letra: ').islower()
+    letra_digitada = input('Digite uma letra: ')
     num_tentativas += 1
 
     if len(letra_digitada) > 1:
@@ -27,6 +27,8 @@ while True:
         print('VOCÊ GANHOU! PARABÉNS!')
         print('A palavra secreta era: ', palavra_secreta)
         print('Número de tentativas: ', num_tentativas)
+        letras_acertadas = ''
+        num_tentativas = 0
         break  
 
 
