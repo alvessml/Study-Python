@@ -11,4 +11,4 @@ def soma(*args):
         total += num
     print(total)
  
-soma(1, 3, 5, 7, 9)  
+soma(1, 3, 5, 7, 9)   
