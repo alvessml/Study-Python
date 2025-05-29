@@ -1,0 +1,1 @@
+from introducao_packages_folder.modulo import __all__, variavel, soma 

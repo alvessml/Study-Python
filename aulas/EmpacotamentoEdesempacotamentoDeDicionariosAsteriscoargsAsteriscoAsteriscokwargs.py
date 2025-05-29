@@ -1,8 +1,8 @@
 # Empacotamento e desempacotamento de dicionários
 # Ex básico:
-a, b, = 1, 2
-a, b = b, a
-print(a, b)
+# a, b, = 1, 2
+# a, b = b, a
+# print(a, b)
 
 # ------------------------------
 # print()
@@ -48,7 +48,7 @@ dados_pessoa = {
 
 pessoas_completa = {**pessoa, **dados_pessoa}
 
-# print(pessoas_completa)
+print(pessoas_completa)
 
 # print()
 
@@ -62,12 +62,12 @@ pessoas_completa = {**pessoa, **dados_pessoa}
 # Exemplo de argumentos NÃO nomeados: 1, 2, 3, Samuel, Futebol
 # Exemplo de argumentos nomeados: nome='Samuel'
 
-def mostro_argumentos_nomeados(*args, **kwargs):
-    print(f"Argumentos NÃO Nomeados: {args}")
-    print("Argumentos nomeados: ", end='')
-    for chave, valor in kwargs.items():
-        print(f"{chave}: {valor}", end="  ")
-    print()
-mostro_argumentos_nomeados(1, 2, "não nomeado", nome='Samuel', sobrenome='Alves', nome_final='de Andrade')
+# def mostro_argumentos_nomeados(*args, **kwargs):
+#     print(f"Argumentos NÃO Nomeados: {args}")
+#     print("Argumentos nomeados: ", end='')
+#     for chave, valor in kwargs.items():
+#         print(f"{chave}: {valor}", end="  ")
+#     print()
+# mostro_argumentos_nomeados(1, 2, "não nomeado", nome='Samuel', sobrenome='Alves', nome_final='de Andrade')
 
-mostro_argumentos_nomeados(**pessoas_completa)
+# mostro_argumentos_nomeados(**pessoas_completa)
